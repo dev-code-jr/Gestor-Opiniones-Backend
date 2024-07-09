@@ -1,0 +1,66 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "registration and login",
+    "dateExported": "2024-02-29T04:51:23.739Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "ac9cb173-f476-4f64-b6ad-2cf4db7af10f",
+            "colId": "acc7007c-7973-4bba-933b-bf455f7fceb4",
+            "containerId": "",
+            "name": "post userRegistration",
+            "url": "http://localhost:3000/tabby/v1/user",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2024-02-26T17:02:46.733Z",
+            "modified": "2024-02-28T16:17:33.205Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"username\": \"echamale\",\n  \"mail\": \"echamale@gmail.com\",\n  \"password\": \"asdfgh\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "01b316ee-4400-4558-a693-75a3b2dd6fa9",
+            "colId": "acc7007c-7973-4bba-933b-bf455f7fceb4",
+            "containerId": "",
+            "name": "post loginMail",
+            "url": "http://localhost:3000/tabby/v1/auth/login",
+            "method": "POST",
+            "sortNum": 30000,
+            "created": "2024-02-26T17:02:46.734Z",
+            "modified": "2024-02-29T04:50:40.942Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"mail\": \"echamale@gmail.com\",\n  \"password\": \"aasdfgh\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "69c8cefb-d715-4c94-a34e-ea235da176c8",
+            "colId": "acc7007c-7973-4bba-933b-bf455f7fceb4",
+            "containerId": "",
+            "name": "post loginUsername",
+            "url": "http://localhost:3000/tabby/v1/auth/log",
+            "method": "POST",
+            "sortNum": 40000,
+            "created": "2024-02-26T17:02:46.735Z",
+            "modified": "2024-02-29T04:50:53.245Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"username\": \"echamale\",\n  \"password\": \"asdfgh\"\n}",
+                "form": []
+            },
+            "tests": []
+        }
+    ]
+}
